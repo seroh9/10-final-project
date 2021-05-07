@@ -25,6 +25,9 @@ img.cityscape {
 
 .formdiv {
   background-color: rgb(177, 152, 197);
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
 }
 
 .reccdiv {
@@ -42,44 +45,56 @@ h3 {
   padding-top: 5%;
 }
 
-.demonimg {
-  width: 500px;
-  height: auto;
-}
-
-.totoroimg {
-  width: 500px;
-  height: auto;
-}
-
 .rec-flex {
   display: flex;
   position: relative;
-}
-
-.description {
-  color: white;
-  width: 50%;
-}
-
-h4 {
-  color: white;
-}
-
-.anime-images {
-  
-}
-
-.formdiv {
-  text-align: center;
   justify-content: center;
-  padding-top: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
-.formdiv input {
-  border-radius: 5px;
+.rec-flex img {
+  display: flex;
+  position: relative;
+  gap: 30px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
 
-p {
+.rec-flex span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  width: 350px;
+  display: flex;
+  font-size: 10pt;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+input.search {
+  width: 30%;
+  outline: 0;
+  padding: 10px 10px 10px 25px;
+  border-radius: 30px;
+  font-family: "VT323", monospace;
+  font-size: 14pt;
+}
+
+#searchbutton {
+  border-radius: 30px;
+  padding: 10px 10px 10px 25px;
+  font-family: "VT323", monospace;
+  color: white;
+  background-color: rgb(124, 83, 189);
+  font-size: 14pt;
+}
+
+input.quotes {
+  padding: 300px 300px 300px 25px;
+  background-color: rgb(124, 83, 189);
+  border-radius: 15px;
+  outline: 0;
+  padding-top: 50px;
+  z-index: 1;
 }

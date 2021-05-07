@@ -90,11 +90,11 @@ input.search {
   font-size: 14pt;
 }
 
-input.quotes {
-  padding: 300px 300px 300px 25px;
+input.quote {
+  padding: 200px 200px 200px 45px;
   background-color: rgb(124, 83, 189);
   border-radius: 15px;
   outline: 0;
   padding-top: 50px;
-  z-index: 1;
+  z-index: -1;
 }

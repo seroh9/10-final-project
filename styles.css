@@ -52,14 +52,22 @@ h3 {
   height: auto;
 }
 
-.reccdiv {
+.rec-flex {
   display: flex;
-  position: absolute;
-  flex-direction: column;
+  position: relative;
 }
 
-.info {
+.description {
   color: white;
+  width: 50%;
+}
+
+h4 {
+  color: white;
+}
+
+.anime-images {
+  
 }
 
 .formdiv {
@@ -70,4 +78,8 @@ h3 {
 
 .formdiv input {
   border-radius: 5px;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

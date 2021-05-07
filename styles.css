@@ -89,6 +89,10 @@ h3.animerecc{
   object-fit: cover;
 }
 
+.rec-flex img:hover {
+ opacity: 60%;
+}
+
 .rec-flex span {
   font-family: "Franklin Gothic Medium", "Arial", Arial, sans-serif;
   line-height: 23px;
@@ -153,7 +157,7 @@ input.quote {
 footer{
   font-family: "VT323", monospace;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 25px;
   color: rgb(187, 193, 247);
   background-color: rgb(35, 29, 39);
   text-align: center;
@@ -163,6 +167,8 @@ footer{
   margin-bottom: 0px;
 }
 
+/* mobile adjustments */
+
 @media (max-width: 1000px){
 
   h1{
@@ -171,15 +177,58 @@ footer{
     text-align: center;
   }
 
+  h2{
+    font-size: 45px;
+    padding: 40px;
+    line-height: 57px;
+  }
+
+  h3{
+    font-size: 75px;
+    padding: 20px;
+  }
+
   .formdiv{
-    height: 800px;
+    height: 1050px;
+  }
+
+  input.search{
+    width: 60%;
+    font-size: 35pt;
+  }
+
+  #searchbutton{
+    font-size: 35pt;
+  }
+
+  #returnquote{
+    padding-top: 70px;
+    width: 45%;
+  }
+
+  .rec-flex {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .animerecc{
+    font-size: 65px;
+  }
+
+  .rec-flex span{
+   width: 750px;
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .rec-flex img{
+      width: 800px;
+      height: 800px;
   }
 
   footer{
     padding: 100px;
   }
-
-
 
 
 }

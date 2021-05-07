@@ -21,29 +21,33 @@
     </header>
 
     <div class="formdiv">
+      <div class="instructions">
+        <h2> Type in the name of your favorite anime or character</h2>
+      </div>
+
       <form>
         <input
           autocomplete="off"
           autofocus=""
           type="text"
           id="myinput"
-          placeholder="Search"
+          placeholder="e.g. Demon Slayer"
           class="search"
         />
         <button id="searchbutton">Search</button>
       </form>
 
-      <br />
-
       <div class="quotediv">
-        <input
+
+        <p id="returnquote"> </p>
+  
+        <!-- <input
           autocomplete="off"
           autofocus=""
           type="text2"
           id="myinput2"
-          placeholder="quote"
           class="quote"
-        />
+        /> -->
       </div>
 
       <img
@@ -52,6 +56,7 @@
         alt="mainbackgroundimage"
         title="city"
       />
+
     </div>
 
     <h3>RECOMMENDED ANIME</h3>
@@ -64,9 +69,10 @@
           alt="reccimage1"
           title="demon"
         />
-        <h3>Demon Slayer</h3>
-        <br />
+        <h3 class="animerecc">Demon Slayer</h3>
+      
         <span>
+          <!-- film synopsis from Google (searched summary of (name of anime) -->
           A boy raised by boars who wears a boar's head and another boy who
           reveals his true power when he sleeps, board the Infinity Train on a
           new mission with the Flame Pillar. Their mission is to defeat a demon
@@ -82,9 +88,10 @@
           alt="reccimage2"
           title="totoro"
         />
-        <h3>Totoro</h3>
-        <br />
+        <h3 class="animerecc">Totoro</h3>
+  
         <span>
+          <!-- film synopsis from Google (searched summary of (name of anime) -->
           This acclaimed animated tale by director Hayao Miyazaki follows
           schoolgirl Satsuke and her younger sister, Mei, as they settle into an
           old country house with their father and wait for their mother to
@@ -102,9 +109,10 @@
           alt="reccimage3"
           title="hxh"
         />
-        <h3>Hunter X Hunter</h3>
-        <br />
+        <h3 class="animerecc">Hunter X Hunter</h3>
+   
         <span>
+           <!-- film synopsis from https://www.imdb.com/title/tt2098220/plotsummary -->
           Gon Freecss is a young boy living on Whale Island. He learns from
           "Hunter" Kite, that his father, who he was told was dead, is still
           alive somewhere as a top "Hunter," risking his life to seek unknown
@@ -118,15 +126,15 @@
         </span>
       </div>
 
-      <div>
+      <div class="ponyo">
         <img
           class="ponyoimg"
           src="images/ponyo.jpeg"
           alt="reccimage4"
           title="ponyo"
         />
-        <h3>Ponyo</h3>
-        <br />
+        <h3 class="animerecc">Ponyo</h3>
+  
         <span>
           <!-- film synopsis from Google (searched summary of (name of anime) -->
           During a forbidden excursion to see the surface world, a goldfish
@@ -139,14 +147,14 @@
         </span>
       </div>
 
-      <div>
+      <div class="spritedaway">
         <img
           class="spiritedimg"
           src="images/spirited.jpg"
           alt="reccimage5"
           title="spirited"
         />
-        <h3>Spirited Away</h3>
+        <h3 class="animerecc">Spirited Away</h3>
         <span>
           <!-- film synopsis from Google (searched summary of (name of anime) -->
           In this animated feature by noted Japanese director Hayao Miyazaki,
@@ -160,14 +168,14 @@
         </span>
       </div>
 
-      <div>
+      <div class="onepiece">
         <img
           class="onepieceimg"
           src="images/one-piece.jpg"
           alt="reccimage6"
           title="onepiece"
         />
-        <h3>One Piece</h3>
+        <h3 class="animerecc">One Piece</h3>
         <span>
           <!-- film synopsis from Wikipedia-->
           The series focuses on Monkey D. Luffy, a young man who, inspired by
@@ -177,12 +185,6 @@
         </span>
       </div>
     </div>
-
-    <!-- film synopsis from Google (searched summary of (name of anime) -->
-
-    <!-- film synopsis from Google (searched summary of (name of anime) -->
-
-    <!-- film synopsis from https://www.imdb.com/title/tt2098220/plotsummary -->
 
     <footer>
       <h5>API for anime quotes © rocktimsaikia 2021</h5>

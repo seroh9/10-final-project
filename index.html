@@ -22,7 +22,9 @@
 
     <div class="formdiv">
       <div class="instructions">
-        <h2>Search the name of your favorite anime or character</h2>
+        <h2>Get a random quote or search the name of your favorite anime </h2>
+        <p class="note"> NOTE: Default rate limit is 100 requests per hour.
+          Default number of quotes returned from query endpoints is 10??</p>
       </div>
 
       <form>
@@ -31,12 +33,13 @@
           autofocus=""
           type="text"
           id="myinput"
-          placeholder="e.g. Demon Slayer"
+          placeholder="e.g. Naruto"
           class="search"
         />
         <button id="searchbutton">Search</button>
-      </form>
+        <button id="randombutton">Generate Random Quote</button>
 
+      </form>
       <div class="quotediv">
 
         <p id="returnquote"> </p>

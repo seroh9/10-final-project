@@ -23,9 +23,17 @@ h1 {
 .instructions{
   font-family: "Franklin Gothic Medium", "Arial", Arial, sans-serif;
   font-weight: normal;
-  font-size: 13pt;
+  font-size: 15pt;
   color: rgb(35, 29, 39);
   background-color: rgba(171,147,199,255);
+}
+
+.note{
+  font-family: "Franklin Gothic Medium", "Arial", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12pt;
+  color: rgb(35, 29, 39);
+  margin-bottom: 0px;
 }
 
 img.cityscape {
@@ -48,7 +56,7 @@ form{
 }
 
 .quotediv{
-  padding-top: 3%;
+  padding-top: 2%;
   padding-right: 1%;
 }
 
@@ -105,15 +113,17 @@ h3.animerecc{
   /* padding-top: 5px; */
 }
 
+
 input.search {
   width: 30%;
   outline: 0;
-  padding: 15px 50px 15px 60px;
+  padding: 15px 50px 15px 50px;
   border-radius: 30px;
   border: 3px solid rgb(35, 29, 39);
   font-family: "VT323", monospace;
   font-size: 15pt;
 }
+
 
 #returnquote{
   width: 20%;
@@ -143,6 +153,18 @@ input.search {
   margin-left: 15px;
 }
 
+#randombutton{
+  border-radius: 30px;
+  padding: 13px 13px 13px 13px;
+  font-family: "VT323", monospace;
+  color: rgb(255, 230, 255);
+  background-color: rgb(124, 83, 189);
+  font-size: 15pt;
+  border: 3px solid rgb(35, 29, 39);
+  margin-left: 15px;
+  margin-top: 2%;
+}
+
 input.quote {
   padding: 300px 300px 250px 45px;
   background-color: rgb(124, 83, 189);
@@ -151,7 +173,7 @@ input.quote {
   padding-top: 50px;
   z-index: -1;
   color: rgb(255, 230, 255);
-  border: 3px solid rgb(35, 29, 39);
+  border: 3px solid rgb(75, 74, 75);
 }
 
 footer{
@@ -180,12 +202,18 @@ footer{
   h2{
     font-size: 45px;
     padding: 40px;
+    padding-bottom: 20px;
     line-height: 57px;
+    margin: 0;
   }
 
   h3{
     font-size: 75px;
     padding: 20px;
+  }
+
+  form{
+    margin-top: 30px;
   }
 
   .formdiv{
@@ -197,8 +225,18 @@ footer{
     font-size: 35pt;
   }
 
+  .note{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
   #searchbutton{
     font-size: 35pt;
+  }
+
+  #randombutton{
+    font-size: 35pt;
+    margin: 40px;
   }
 
   #returnquote{
